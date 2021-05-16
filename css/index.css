@@ -1,0 +1,177 @@
+/* base style */
+
+/* using special google fonts*/
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+body{
+    background-image: url("../media/background3.jpg");
+    background-size:cover;
+    font: 16px DIN2014,Arial,sans-serif;
+    margin-bottom: 100px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+
+header, main{
+    background-color: #808080 ;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    opacity: 1;
+}
+
+video { display: block; margin: auto; }
+img{
+    vertical-align: middle;
+}
+
+.content1{
+   
+    box-sizing: border-boxf;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    background-color: white;
+}
+
+.content1txt .content1img
+{
+    width: 150px;
+    flex: 0 0 150px;
+}
+
+.page2{
+   
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    background-color: white;
+}
+
+.petratxt .petraimg
+{
+    width: 150px;
+    flex: 0 0 150px;
+}
+
+
+
+.rumimg .rumtxt
+{
+    width: 150px;
+    flex: 0 0 150px;
+}
+
+
+
+.deadseatxt .deadseaimg
+{
+    width: 150px;
+    flex: 0 0 150px;
+}
+
+.page3{
+   
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    background-color: white;
+}
+
+.tableimg .table {
+    width: 150px;
+    flex: 0 0 150px;
+}
+
+.form{
+   align-self: auto;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    background-color: white;
+}
+
+h2{
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    font-family: serif;
+}
+
+.ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.li{
+    display: inline-block;
+    margin-right: 20px;    
+}
+
+.t1{
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    background-color: white;
+}
+.places{
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    background-color: white;
+}
+
+.prices{
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    background-color: white;
+}
+.reserve{
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    background-color: white;
+}
+
+.source{
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    background-color: white;
+}
+
+#pagemenu{
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+
+#pagemenu a{
+    color: #000000;
+    text-decoration:none;
+}
+
+#pagemenu a:hover {
+   color: blue;
+   text-decoration: underline;
+}
